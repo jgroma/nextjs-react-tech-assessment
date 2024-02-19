@@ -2,11 +2,13 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import RootLayout from "./layout";
 import Header from "./components/Header";
+import Main from "./components/Main";
 
 export default function Home() {
   return (
     <RootLayout>
       <Header />
+      <Main />
     </RootLayout>
     // <main className={styles.main}>
     //   <div className={styles.description}>
